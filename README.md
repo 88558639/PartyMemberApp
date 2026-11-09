@@ -27,7 +27,7 @@
 - **数据库**: Room Database
 - **异步处理**: Kotlin Coroutines + Flow
 - **Excel处理**: Apache POI
-- **最低SDK**: Android 7.0 (API 24)
+- **最低SDK**: Android 8.0 (API 26)
 - **目标SDK**: Android 14 (API 34)
 
 ## 项目结构
@@ -49,6 +49,20 @@ app/src/main/java/com/example/partymember/
 └── utils/                   # 工具类
     └── ExcelParser.kt       # Excel解析器
 ```
+
+## 导入用的 Excel 文件在哪里
+
+App 不内置任何真实党员名册，导入用的 Excel（下称「目标 Excel」）需要自行准备。三个入口：
+
+| 需要什么 | 位置 / 获取方式 |
+|---|---|
+| 空白模板（源码） | `app/src/main/assets/template.xlsx`，仓库内可直接下载；仅含 8 列表头 + 1 条虚构示例数据 |
+| 空白模板（手机上） | 打开 App → 右上角导入图标 → 页面底部「下载模板」→ 保存到手机「下载 / Download」目录，文件名为 `党员信息导入模板.xlsx`（Android 10+ 经 MediaStore.Downloads 写入，旧版写入 `Download/`） |
+| 填好数据的目标 Excel | 把模板传到电脑填写后再放回手机**任意可被文件选择器访问的位置**即可；不要求固定目录、不要求改回原文件名、不需要放进 APK |
+
+导入方式：在导入页点「选择文件」直接选中该 `.xlsx` / `.xls`，**选完即自动导入**（覆盖式，先清空再写入），无需再点上传。列顺序固定为 8 列，详见下方「Excel格式要求」与 `Excel导入说明.md`。
+
+> Release 中只提供 APK 安装包，**不附带 Excel 数据文件**；仓库与 APK 内的模板均只有虚构示例数据，真实名册不会上传、也不会随包分发。
 
 ## Excel格式要求
 
