@@ -1,0 +1,79 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Background circle -->
+    <path
+        android:fillColor="#667eea"
+        android:pathData="M24,24 m-22,0 a22,22 0 1,1 44,0 a22,22 0 1,1 -44,0" />
+
+    <!-- Gradient overlay -->
+    <path
+        android:fillColor="#764ba2"
+        android:pathData="M24,24 m-22,0 a22,22 0 1,1 44,0 a22,22 0 1,1 -44,0"
+        android:fillAlpha="0.5" />
+
+    <!-- 查字 - 正常字体 -->
+    <!-- 顶部横线 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="0"
+        android:pathData="M13,11 L35,11 L35,14 L13,14 Z" />
+
+    <!-- 左竖 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="0"
+        android:pathData="M13,9 L16,9 L16,19 L13,19 Z" />
+
+    <!-- 右竖 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="0"
+        android:pathData="M32,9 L35,9 L35,19 L32,19 Z" />
+
+    <!-- 中间横 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="0"
+        android:pathData="M16,17 L32,17 L32,20 L16,20 Z" />
+
+    <!-- 下部横 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="0"
+        android:pathData="M14,22 L34,22 L34,25 L14,25 Z" />
+
+    <!-- 下部左侧竖 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="0"
+        android:pathData="M15,25 L18,25 L18,29 L15,29 Z" />
+
+    <!-- 下部右侧竖 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="0"
+        android:pathData="M30,25 L33,25 L33,29 L30,29 Z" />
+
+    <!-- 下部中间横 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="0"
+        android:pathData="M18,25 L30,25 L30,28 L18,28 Z" />
+
+    <!-- 最后一横 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="0"
+        android:pathData="M13,31 L35,31 L35,34 L13,34 Z" />
+
+    <!-- Decorative dots -->
+    <path
+        android:fillColor="#FF4081"
+        android:pathData="M10,8 L11,8 L11,9 L10,9 Z" />
+    <path
+        android:fillColor="#FF4081"
+        android:pathData="M38,8 L39,8 L39,9 L38,9 Z" />
+</vector>

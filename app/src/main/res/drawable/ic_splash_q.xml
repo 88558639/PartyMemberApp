@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Background circle -->
+    <path
+        android:fillColor="#667eea"
+        android:pathData="M60,60 m-56,0 a56,56 0 1,1 112,0 a56,56 0 1,1 -112,0" />
+
+    <!-- Gradient overlay -->
+    <path
+        android:fillColor="#764ba2"
+        android:pathData="M60,60 m-56,0 a56,56 0 1,1 112,0 a56,56 0 1,1 -112,0"
+        android:fillAlpha="0.5" />
+
+    <!-- 放大镜圆环 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="8"
+        android:strokeColor="#FFFFFF"
+        android:pathData="M60,60 m-30,0 a30,30 0 1,1 60,0 a30,30 0 1,1 -60,0" />
+
+    <!-- 放大镜手柄 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M80,80 L95,95 L91,99 L76,84 Z" />
+</vector>

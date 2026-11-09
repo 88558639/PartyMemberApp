@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">党员信息查询</string>
+    <string name="search_hint">输入姓氏搜索，如：张、李</string>
+    <string name="search_title">党员信息查询</string>
+    <string name="upload_title">上传数据</string>
+    <string name="upload_excel">上传Excel文件</string>
+    <string name="upload_success">上传成功</string>
+    <string name="upload_failed">上传失败</string>
+    <string name="name">姓名</string>
+    <string name="gender">性别</string>
+    <string name="address">地址</string>
+    <string name="phone">电话</string>
+    <string name="party_dues">应缴党费</string>
+    <string name="party_branch">所属支部</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="no_data">暂无数据</string>
+    <string name="upload_instruction_title">Excel格式说明</string>
+    <string name="upload_instruction_content">请上传包含以下列的Excel文件：\n\n1. 姓名\n2. 性别（男/女）\n3. 地址\n4. 电话\n5. 应缴党费\n6. 所属支部\n7. 身份证号码\n8. 年龄\n\n注意事项：\n- 文件格式：.xlsx 或 .xls\n- 第一行应为列标题\n- 请确保数据格式正确</string>
+</resources>

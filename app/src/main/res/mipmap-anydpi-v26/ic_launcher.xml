@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 紫色渐变圆形背景 -->
+    <path
+        android:fillColor="#667eea"
+        android:pathData="M54,54 m-50,0 a50,50 0 1,1 100,0 a50,50 0 1,1 -100,0" />
+    <path
+        android:fillColor="#764ba2"
+        android:pathData="M54,54 m-50,0 a50,50 0 1,1 100,0 a50,50 0 1,1 -100,0"
+        android:fillAlpha="0.5" />
+    
+    <!-- 放大镜圆环 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54 m-30,0 a30,30 0 1,1 60,0 a30,30 0 1,1 -60,0"
+        android:fillAlpha="0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="8"
+        android:strokeColor="#FFFFFF"
+        android:pathData="M54,54 m-26,0 a26,26 0 1,1 52,0 a26,26 0 1,1 -52,0" />
+    
+    <!-- 放大镜手柄 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M72,72 L88,88 L84,92 L68,76 Z" />
+</vector>
